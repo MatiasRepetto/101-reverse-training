@@ -1,9 +1,12 @@
 #ifndef RW_MEMORY
 #define RW_MEMORY
+#include <vector>
+#include <windows.h>
+#include <iostream>
+#include <string>
 
-
-float readPointerData(LPVOID baseAddr, int offs, LPCWSTR baseWnd);
-void writePointerData(LPVOID BaseAddr, int Offs, BYTE data[], LPCWSTR baseWnd);
+void readPointerData(LPVOID, std::vector<DWORD>, LPCWSTR);
+void writePointerData(LPVOID, std::vector<DWORD>, BYTE data[], LPCWSTR);
 
 
 #endif

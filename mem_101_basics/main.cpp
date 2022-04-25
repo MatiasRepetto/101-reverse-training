@@ -15,7 +15,7 @@ int main(){
     cin >> memAddrS;
     cout << "ingrese la cantidad de offsets de la direccion: " << endl;
     cin >> cantoffs;
-    for(int i=0; i <= cantoffs; i++){
+    for(int i=0; i <= cantoffs-1; i++){
         cout << "ingrese offset de la direccion: " << endl;
         cin >> offst;
         listOffs[i] = offst;

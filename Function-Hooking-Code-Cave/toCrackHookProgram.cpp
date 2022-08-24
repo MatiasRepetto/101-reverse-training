@@ -9,7 +9,7 @@ int main(){
 
     std::cout << "Increse su password " << std::endl;
     std::cin >> password;
-    if(password == allow){ // no way to hit the pass crack it !
+    if(password == allow){ // no way to hit the pass crack it !!
         std::cout << "Ingresado correctamente" << std::endl;
         Sleep(1500);
     }else{

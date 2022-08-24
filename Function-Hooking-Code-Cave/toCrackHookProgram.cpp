@@ -11,9 +11,9 @@ int main(){
     std::cin >> password;
     if(password == allow){ // no way to hit the pass crack it !
         std::cout << "Ingresado correctamente" << std::endl;
-        Sleep(10);
+        Sleep(1500);
     }else{
         std::cout << "Error contraseña incorrecta" << std::endl;
-        Sleep(10);
+        Sleep(1500);
     }
 }
